@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: concept-backup-policies.html 
+keywords: snapvault, archive, archiving, retention 
+summary: A differenza dei criteri Mirror, i criteri di Backup SnapVault replicano copie Snapshot specifiche in un volume di destinazione. È importante comprendere il funzionamento dei criteri di backup se si desidera utilizzare i propri criteri invece dei criteri predefiniti. 
+---
+= Scopri le policy di replica
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+A differenza dei criteri di mirroring, i criteri di backup (SnapVault) replicano copie Snapshot specifiche in un volume di destinazione. È importante comprendere il funzionamento dei criteri di backup se si desidera utilizzare i propri criteri invece dei criteri predefiniti.
+
+
+
+== Comprensione della relazione tra le etichette delle copie Snapshot e le policy di backup
+
+Una policy Snapshot definisce il modo in cui il sistema crea le copie Snapshot dei volumi. Il criterio specifica quando creare le copie Snapshot, quante copie conservare e come etichettarle. Ad esempio, un sistema potrebbe creare una copia Snapshot ogni giorno alle 12:10, conservare le due copie più recenti ed etichettarle "ogni giorno".
+
+Un criterio di backup include regole che specificano le copie Snapshot etichettate da replicare in un volume di destinazione e il numero di copie da conservare. Le etichette definite in un criterio di backup devono corrispondere a una o più etichette definite in un criterio Snapshot. In caso contrario, il sistema non può replicare alcuna copia Snapshot.
+
+Ad esempio, una policy di backup che include le etichette "giornaliere" e "settimanali" produce la replica delle copie Snapshot che includono solo quelle etichette. Non vengono replicate altre copie Snapshot, come mostrato nell'immagine seguente:
+
+image:diagram_replication_snapvault_policy.png["Questa illustrazione mostra una policy Snapshot, un volume di origine, le copie Snapshot create dalla policy Snapshot e quindi la replica di tali copie Snapshot in un volume di destinazione basato su una policy di backup, che specifica la replica delle copie Snapshot con le etichette \"giornaliere\" e \"settimanali\""]
+
+
+
+== Policy predefinite e policy personalizzate
+
+La policy Snapshot predefinita crea copie Snapshot orarie, giornaliere e settimanali, conservando sei copie Snapshot orarie, due giornaliere e due copie Snapshot settimanali.
+
+È possibile utilizzare facilmente un criterio di backup predefinito con il criterio Snapshot predefinito. Le policy di backup predefinite replicano copie Snapshot giornaliere e settimanali, conservando sette copie Snapshot giornaliere e 52 copie Snapshot settimanali.
+
+Se si creano criteri personalizzati, le etichette definite da tali criteri devono corrispondere. È possibile creare policy personalizzate utilizzando System Manager.

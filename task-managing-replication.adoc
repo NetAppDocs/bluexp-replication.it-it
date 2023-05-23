@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: task-managing-replication.html 
+keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, source, destination, schedule, relationship, break, resync, max transfer, maximum transfer rate, rate, transfer rate, reverse resync, status, replication status, disaster recovery, DR, archive, archiving, retention 
+summary: Dopo aver configurato la replica dei dati tra due sistemi, è possibile gestire la pianificazione e la relazione della replica dei dati da BlueXP. 
+---
+= Gestire pianificazioni e relazioni
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dopo aver configurato la replica dei dati tra due sistemi, è possibile gestire la pianificazione e la relazione della replica dei dati da BlueXP.
+
+.Fasi
+. Dal menu di navigazione, selezionare *protezione > Replica*.
+. Esaminare lo stato delle relazioni di replica dei dati per verificare che siano integre.
++
+
+NOTE: Se lo stato di una relazione è inattivo e lo stato di mirroring non è inizializzato, è necessario inizializzare la relazione dal sistema di destinazione per eseguire la replica dei dati in base alla pianificazione definita. È possibile inizializzare la relazione utilizzando System Manager o l'interfaccia della riga di comando (CLI). Questi stati possono essere visualizzati quando il sistema di destinazione non funziona e poi torna in linea.
+
+. Fare clic sul menu delle azioni per una relazione di volume e scegliere una delle azioni disponibili.
++
+image:screenshot_replication_managing.gif["Schermata: Mostra l'elenco delle azioni disponibili nella pagina Replication Status (Stato replica)."]
+
++
+La seguente tabella descrive le azioni disponibili:
+
++
+[cols="15,85"]
+|===
+| Azione | Descrizione 
+
+
+| Informazioni | Mostra i dettagli sulla relazione del volume: Informazioni sul trasferimento, informazioni sull'ultimo trasferimento, dettagli sul volume e informazioni sulla policy di protezione assegnata alla relazione. 
+
+
+| Rompere | Interrompe la relazione tra i volumi di origine e di destinazione e attiva il volume di destinazione per l'accesso ai dati. Questa opzione viene generalmente utilizzata quando il volume di origine non è in grado di fornire dati a causa di eventi come corruzione dei dati, eliminazione accidentale o stato offline.https://docs.netapp.com/us-en/ontap-sm-classic/volume-disaster-recovery/index.html["Scopri come configurare un volume di destinazione per l'accesso ai dati e riattivare un volume di origine nella documentazione di ONTAP"^] 
+
+
+| Risincronizzare  a| 
+Consente di ripristinare una relazione interrotta tra i volumi e di riprendere la replica dei dati in base alla pianificazione definita.
+
+
+NOTE: Quando si risincronizzano i volumi, i contenuti del volume di destinazione vengono sovrascritti dai contenuti del volume di origine.
+
+Informazioni su come eseguire una risincronizzazione inversa, che risincronizza i dati dal volume di destinazione al volume di origine, andare al https://docs.netapp.com/us-en/ontap-sm-classic/volume-disaster-recovery/index.html["Documentazione ONTAP"^].
+
+
+
+| Risincronizzazione inversa | Inverte i ruoli dei volumi di origine e di destinazione. Il contenuto del volume di origine originale viene sovrascritto dal contenuto del volume di destinazione. Questa operazione è utile quando si desidera riattivare un volume di origine che è stato offline. Tutti i dati scritti nel volume di origine tra l'ultima replica dei dati e l'ora in cui il volume di origine è stato disattivato non vengono conservati. 
+
+
+| Modifica pianificazione | Consente di scegliere una pianificazione diversa per la replica dei dati. 
+
+
+| Modifica velocità di trasferimento massima | Consente di modificare la velocità massima (in kilobyte al secondo) alla quale è possibile trasferire i dati. 
+
+
+| Aggiornare | Avvia un trasferimento incrementale per aggiornare il volume di destinazione. 
+
+
+| Eliminare | Elimina la relazione di protezione dei dati tra i volumi di origine e di destinazione, il che significa che la replica dei dati non avviene più tra i volumi. Questa azione non attiva il volume di destinazione per l'accesso ai dati. Questa azione elimina anche la relazione peer del cluster e la relazione peer di Storage VM (SVM), se non sono presenti altre relazioni di protezione dei dati tra i sistemi. 
+|===
+
+
+.Risultato
+Dopo aver selezionato un'azione, BlueXP aggiorna la relazione o la pianificazione.

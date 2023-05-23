@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: concept-replication-policies.html 
+keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, disaster recovery, DR 
+summary: È possibile replicare i dati tra ambienti di lavoro BlueXP. Puoi scegliere una replica dei dati una tantum per spostare i dati da e verso il cloud, oppure un programma ricorrente per il disaster recovery o la conservazione a lungo termine. 
+---
+= Scopri le policy di replica
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Quando si imposta la replica dei dati in BlueXP, potrebbe essere necessario scegliere un criterio di replica. Un criterio di replica definisce il modo in cui il sistema storage replica i dati da un volume di origine a un volume di destinazione.
+
+
+
+== Quali sono le funzioni delle policy di replica
+
+Il sistema operativo ONTAP crea automaticamente i backup denominati copie Snapshot. Una copia Snapshot è un'immagine di sola lettura di un volume che acquisisce lo stato del file system in un momento specifico.
+
+Quando si replicano i dati tra sistemi, si replicano le copie Snapshot da un volume di origine a un volume di destinazione. Un criterio di replica specifica quali copie Snapshot replicare dal volume di origine al volume di destinazione.
+
+
+TIP: Le policy di replica sono anche denominate policy di _protezione_, in quanto sono basate sulle tecnologie SnapMirror e SnapVault, che forniscono protezione dal disaster recovery e backup e ripristino disk-to-disk.
+
+La seguente immagine mostra la relazione tra le copie Snapshot e i criteri di replica:
+
+image:diagram_replication_policies.png["Questa illustrazione mostra le copie Snapshot su un volume di origine e una policy di replica che specifica la replica di tutte o specifiche copie Snapshot dal volume di origine al volume di destinazione."]
+
+
+
+== Tipi di policy di replica
+
+Esistono tre tipi di policy di replica:
+
+* Un criterio _Mirror_ replica le nuove copie Snapshot create in un volume di destinazione.
++
+È possibile utilizzare queste copie Snapshot per proteggere il volume di origine in preparazione al disaster recovery o alla replica dei dati una tantum. È possibile attivare il volume di destinazione per l'accesso ai dati in qualsiasi momento.
+
+* Un criterio _Backup_ replica copie Snapshot specifiche in un volume di destinazione e le conserva per un periodo di tempo più lungo rispetto al volume di origine.
++
+È possibile ripristinare i dati da queste copie Snapshot quando i dati vengono danneggiati o persi e conservarli per la conformità agli standard e altri scopi correlati alla governance.
+
+* Una policy di _Mirror e Backup_ fornisce sia il disaster recovery che la conservazione a lungo termine.
++
+Ogni sistema include una policy di backup e mirroring predefinita, che funziona bene per molte situazioni. Se hai bisogno di policy personalizzate, puoi crearle usando System Manager.
+
+
+
+Le seguenti immagini mostrano la differenza tra i criteri Mirror e Backup. Un criterio Mirror esegue il mirroring delle copie Snapshot disponibili sul volume di origine.
+
+image:diagram_replication_snapmirror.png["Questa illustrazione mostra le copie Snapshot su un volume di origine e un volume di destinazione Mirror che esegue il mirroring del volume di origine."]
+
+Una policy di backup conserva in genere le copie Snapshot più a lungo di quanto non vengano conservate nel volume di origine:
+
+image:diagram_replication_snapvault.png["Questa illustrazione mostra le copie Snapshot su un volume di origine e un volume di destinazione di backup che include più copie Snapshot, poiché SnapVault conserva le copie Snapshot per una conservazione a lungo termine."]

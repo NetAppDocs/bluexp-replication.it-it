@@ -1,0 +1,63 @@
+---
+settings:
+  name: Replication
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: it-it,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
+sidebar:
+  entries:
+  - title: Documenti di replica
+    url: "/index.html"
+  - title: Note di rilascio
+    url: "/whats-new.html"
+  - title: Inizia subito
+    entries:
+    - title: Scopri di più sul servizio di replica
+      url: "/concept-replication.html"
+    - title: Configurare la replica dei dati
+      url: "/task-replicating-data.html"
+  - title: Gestire la replica dei dati
+    url: "/task-managing-replication.html"
+  - title: Concetti
+    entries:
+    - title: Policy di replica
+      url: "/concept-replication-policies.html"
+    - title: Policy di backup
+      url: "/concept-backup-policies.html"
+  - title: Conoscenza e supporto
+    entries:
+    - title: Registrati per ricevere assistenza
+      url: "/task-support-registration.html"
+    - title: Richiedi assistenza
+      url: "/task-get-help.html"
+  - title: Note legali
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Inizia subito
+    links:
+    - title: Scopri di più sul servizio di replica
+      url: concept-replication.html
+    - title: Configurare la replica dei dati
+      url: task-replicating-data.html
+  - title: Utilizzare il servizio di replica
+    links:
+    - title: Gestire la replica dei dati
+      url: task-managing-replication.html
+  - title: Blog e community
+    links:
+    - title: Community NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog BlueXP
+      url: https://cloud.netapp.com/blog
+    - title: Webinar sul cloud
+      url: https://cloud.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Tutta la documentazione BlueXP

@@ -1,0 +1,16 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: Replicate data between ONTAP storage systems to support backup and disaster recovery to the cloud or between clouds. 
+summary: Replica dei dati tra sistemi storage ONTAP per supportare backup e disaster recovery nel cloud o tra cloud. 
+---
+= Documentazione di replica
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
