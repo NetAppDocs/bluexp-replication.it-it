@@ -1,1 +1,1 @@
-Sitemap: https://docs.netapp.com/it-it/cloud-manager-replication/sitemap.xml
+Sitemap: https://docs.netapp.com/it-it/bluexp-replication/sitemap.xml

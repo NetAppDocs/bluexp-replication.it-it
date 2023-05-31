@@ -2,22 +2,22 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cloud-manager-replication | NetApp Documentation</title>
-    <atom:link href="https://docs.netapp.com/it-it/cloud-manager-replication/feed.xml" rel="self" type="application/rss+xml"/>
-    <link>https://docs.netapp.com/it-it/cloud-manager-replication</link>
+    <title>bluexp-replication | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/it-it/bluexp-replication/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/it-it/bluexp-replication</link>
     <description>The latest updates from NetApp Documentation</description>
     <language>it-it</language>
     <ttl>60</ttl>
-    <pubDate>Wed, 24 May 2023 08:18:58 +0000</pubDate>
-    <lastBuildDate>Wed, 24 May 2023 08:18:58 +0000</lastBuildDate>
+    <pubDate>Wed, 31 May 2023 14:53:48 +0000</pubDate>
+    <lastBuildDate>Wed, 31 May 2023 14:53:48 +0000</lastBuildDate>
     
     
     
     <item>
-      <title>Novità (23 May 2023)</title>
-      <pubDate>Tue, 23 May 2023 20:41:48 +0000</pubDate>
-      <link>https://docs.netapp.com/it-it/cloud-manager-replication/whats-new.html?time=1684874508</link>
-      <guid isPermaLink="false">Tue, 23 May 2023 20:41:48 +0000</guid>
+      <title>Novità (31 May 2023)</title>
+      <pubDate>Wed, 31 May 2023 14:50:41 +0000</pubDate>
+      <link>https://docs.netapp.com/it-it/bluexp-replication/whats-new.html?time=1685544641</link>
+      <guid isPermaLink="false">Wed, 31 May 2023 14:50:41 +0000</guid>
       <description><![CDATA[ Scopri le novità del servizio di replica di BlueXP (in precedenza Cloud Manager). ]]></description>
     </item>
     
