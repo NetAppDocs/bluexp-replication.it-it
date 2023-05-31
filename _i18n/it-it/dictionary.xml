@@ -47,11 +47,8 @@
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">Supporto per le soluzioni cloud provider</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">Per il supporto tecnico sulle seguenti soluzioni di cloud provider integrate in BlueXP, fare riferimento alla sezione "Assistenza" nella documentazione BlueXP relativa a tale prodotto.</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX per ONTAP</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service per Google Cloud</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Panoramica sulla registrazione del supporto</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Esistono due forme di registrazione per attivare i diritti di supporto:</block>
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Registrazione dell'abbonamento al supporto per l'ID account BlueXP (il numero di serie a 20 cifre 960xxxxxxxxx nella pagina Support Resources di BlueXP).</block>
@@ -75,7 +72,6 @@
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Fasi</block>
   <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Nella parte superiore destra della console BlueXP, fare clic sull'icona Guida e selezionare *supporto*.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Schermata del menu Help (Guida) in cui Support (Assistenza) è la prima opzione elencata</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Fare clic su *Gestione NSS &gt; Aggiungi account NSS*.</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Quando richiesto, fare clic su *Continue* per essere reindirizzati a una pagina di accesso Microsoft.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilizza Microsoft Azure Active Directory come provider di identità per i servizi di autenticazione specifici per il supporto e la concessione di licenze.</block>
@@ -88,8 +84,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Lo stesso vale se si dispone di account NSS a livello di cliente preesistenti e si tenta di aggiungere un account a livello di partner.</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Una volta effettuato l'accesso, NetApp memorizzerà il nome utente NSS.</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Un'icona di tre punti orizzontali</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">Si tratta di un ID generato dal sistema che viene mappato all'e-mail. Nella pagina *NSS Management*, è possibile visualizzare l'e-mail da <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">Se è necessario aggiornare i token delle credenziali di accesso, è disponibile anche l'opzione *Update Credentials* (Aggiorna credenziali) in <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Questa opzione richiede di effettuare nuovamente l'accesso. Il token per questi account scade dopo 90 giorni. Verrà inviata una notifica per avvisare l'utente.</block>
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Registrati con NetApp</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">La modalità di registrazione al supporto NetApp dipende dal fatto che si disponga già di un account NetApp Support Site (NSS).</block>
@@ -98,7 +92,6 @@
   <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Se non l'hai ancora fatto, Aggiungi il tuo account NSS a BlueXP.</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Nella pagina *risorse*, fare clic su *Registra per il supporto*.</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">Una schermata che mostra il numero di serie di un account e l'opzione Registra per il supporto</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Cliente esistente ma nessun account NSS</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Se sei già un cliente NetApp con licenze e numeri di serie esistenti ma _no_ account NSS, devi solo creare un account NSS.</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Modulo di registrazione per l'utente del sito di supporto NetApp</block>
@@ -108,7 +101,6 @@
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Novità di NetApp</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Se sei nuovo di NetApp e non disponi di un account NSS, segui i passaggi riportati di seguito.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Individuare il numero di serie dell'ID account nella pagina Support Registration (registrazione supporto).</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Sito per la registrazione del supporto NetApp</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Selezionare<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> E selezionare *non sono un cliente NetApp registrato*.</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Compilare i campi obbligatori (con asterischi rossi).</block>
@@ -128,17 +120,11 @@
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">Ambienti di lavoro</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">Se non l'hai già fatto, devi creare gli ambienti di lavoro per l'origine e la destinazione nella relazione di replica dei dati.</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">Creare un ambiente di lavoro Amazon FSX per ONTAP</block>
-  <block id="6cd346b36825d1f1cef046571571fce0" category="list-text"><block ref="6cd346b36825d1f1cef046571571fce0" category="inline-link-rx"></block></block>
   <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">Avviare Cloud Volumes ONTAP in AWS</block>
-  <block id="5fc68dd6c2f9e8f9867008288922972c" category="list-text"><block ref="5fc68dd6c2f9e8f9867008288922972c" category="inline-link-rx"></block></block>
   <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">Avviare Cloud Volumes ONTAP in Azure</block>
-  <block id="382c836de95fd7a0d956bd916d408106" category="list-text"><block ref="382c836de95fd7a0d956bd916d408106" category="inline-link-rx"></block></block>
   <block id="ce3503849689227dd8014f8ed3f5cb5e" category="inline-link">Avviare Cloud Volumes ONTAP in GCP</block>
-  <block id="b1fc335b745b5be1ddedded19d077bf9" category="list-text"><block ref="b1fc335b745b5be1ddedded19d077bf9" category="inline-link-rx"></block></block>
   <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">Aggiungere sistemi Cloud Volumes ONTAP esistenti</block>
-  <block id="c10b8a77856c1097f8b3038f1bfab45b" category="list-text"><block ref="c10b8a77856c1097f8b3038f1bfab45b" category="inline-link-rx"></block></block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">Scopri i cluster ONTAP</block>
-  <block id="49aaf65c31a811a37b2627a951f6f6d2" category="list-text"><block ref="49aaf65c31a811a37b2627a951f6f6d2" category="inline-link-rx"></block></block>
   <block id="3fbe74eae84714fcfdd21edafe54f77f" category="list-text">Requisiti di versione</block>
   <block id="5ab11c0b1a095a5aa6623bf54430fb4b" category="list-text">Prima di eseguire la replica dei dati, verificare che i volumi di origine e di destinazione eseguano versioni ONTAP compatibili.</block>
   <block id="49a1e754247eba0034ec2a2b3dea46b0" category="inline-link">Visualizza le versioni di ONTAP compatibili per le relazioni SnapMirror</block>
@@ -245,7 +231,6 @@
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX per ONTAP to Cloud Volumes ONTAP</block>
   <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">Ora puoi replicare i dati da un file system Amazon FSX per ONTAP a Cloud Volumes ONTAP.</block>
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">Scopri come configurare la replica dei dati</block>
-  <block id="1e56755e05ec049b30c49b9d53744ca1" category="paragraph"><block ref="0337e364432fca0f343e5f2660661b77" category="inline-link-rx"></block>.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">31 luglio 2022</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX per ONTAP come origine dati</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">Ora puoi replicare i dati da un file system Amazon FSX per ONTAP nelle seguenti destinazioni:</block>
@@ -257,7 +242,6 @@
   <block id="1473f0729c8bea54a5077a19ab764c47" category="section-title">Interfaccia riprogettata</block>
   <block id="5a0a1bceb9fa4494f5bd231c6eb87a5b" category="paragraph">Abbiamo riprogettato la scheda Replication per una maggiore facilità di utilizzo e per adattarsi all'aspetto attuale dell'interfaccia utente di Cloud Manager.</block>
   <block id="0f9405518138d20fd96d78fe19dabf84" category="inline-image-macro">Una schermata della scheda Replica riprogettata in Cloud Manager che mostra un elenco di relazioni di volume.</block>
-  <block id="afd129f297b503a0e765f8dcc6f0d4d4" category="paragraph"><block ref="afd129f297b503a0e765f8dcc6f0d4d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f44753cd1ded9ad0818a4d62481460e9" category="summary">A differenza dei criteri Mirror, i criteri di Backup SnapVault replicano copie Snapshot specifiche in un volume di destinazione. È importante comprendere il funzionamento dei criteri di backup se si desidera utilizzare i propri criteri invece dei criteri predefiniti.</block>
   <block id="77ae0badcc9669dcf09b0b6ddb602a5a" category="paragraph">A differenza dei criteri di mirroring, i criteri di backup (SnapVault) replicano copie Snapshot specifiche in un volume di destinazione. È importante comprendere il funzionamento dei criteri di backup se si desidera utilizzare i propri criteri invece dei criteri predefiniti.</block>
   <block id="5a987691c26800bb72299080978208d0" category="section-title">Comprensione della relazione tra le etichette delle copie Snapshot e le policy di backup</block>
@@ -306,7 +290,6 @@
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Allegato (opzionale)*: Carica fino a cinque allegati, uno alla volta.</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Gli allegati sono limitati a 25 MB per file. Sono supportate le seguenti estensioni di file: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx e csv.</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Schermata del modulo Crea un caso che consente di creare un caso con il supporto NetApp.</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Viene visualizzata una finestra a comparsa con il numero del caso di supporto. Uno specialista del supporto NetApp esaminerà il tuo caso e ti contatterà al più presto.</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Per una cronologia dei casi di supporto, fare clic su *Impostazioni &gt; Cronologia* e cercare le azioni denominate "Crea caso di supporto". Un pulsante all'estrema destra consente di espandere l'azione per visualizzare i dettagli.</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di creare un caso:</block>
@@ -330,21 +313,15 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">In *Organization's Cases* (casi dell'organizzazione), fare clic su *View* (Visualizza) per visualizzare tutti i casi associati alla società.</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">Modificare l'intervallo di date scegliendo un intervallo di date esatto o scegliendo un intervallo di tempo diverso.</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Una schermata dell'opzione sopra la tabella nella pagina di gestione del caso che consente di scegliere un intervallo di date esatto o gli ultimi 7 giorni, 30 giorni o 3 mesi.</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtrare il contenuto delle colonne.</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Schermata dell'opzione di filtro nella colonna Status (Stato) che consente di filtrare i casi che corrispondono a uno stato specifico, ad esempio attivo o chiuso.</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">L'icona più visualizzata nella tabella</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">Modificare le colonne visualizzate nella tabella facendo clic su <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> e quindi scegliere le colonne che si desidera visualizzare.</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Una schermata che mostra le colonne che è possibile visualizzare nella tabella.</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Un'icona con tre punti che compare nell'ultima colonna della tabella</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Gestire un caso esistente facendo clic su <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> e selezionando una delle opzioni disponibili:</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Visualizza caso*: Visualizza tutti i dettagli relativi a un caso specifico.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Aggiorna note sul caso*: Fornisci ulteriori dettagli sul problema oppure seleziona *carica file* per allegare fino a un massimo di cinque file.</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Chiudi caso*: Fornisci i dettagli sul motivo per cui stai chiudendo il caso e fai clic su *Chiudi caso*.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Una schermata che mostra le azioni che è possibile eseguire dopo aver selezionato il menu nell'ultima colonna della tabella.</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7596270426e8c5f92be308ff330e0e64" category="sidebar">Documenti di replica</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Inizia subito</block>
@@ -359,4 +336,27 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinar sul cloud</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Tutta la documentazione BlueXP</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">Modificare le colonne visualizzate nella tabella facendo clic su <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> e quindi scegliere le colonne che si desidera visualizzare.</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">Gestire un caso esistente facendo clic su <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> e selezionando una delle opzioni disponibili:</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
+  <block id="58daf0847a76a7b1620f3558f8c5aaa6" category="list-text"><block ref="58daf0847a76a7b1620f3558f8c5aaa6" category="inline-link-rx"></block></block>
+  <block id="ae344581f45a6d4593a2788f5e30015e" category="list-text"><block ref="ae344581f45a6d4593a2788f5e30015e" category="inline-link-rx"></block></block>
+  <block id="33f4a6dc8fe8627d8c8d45e16d3010a3" category="list-text"><block ref="33f4a6dc8fe8627d8c8d45e16d3010a3" category="inline-link-rx"></block></block>
+  <block id="8fdf2adbca771b61e226157cc48ae918" category="list-text"><block ref="8fdf2adbca771b61e226157cc48ae918" category="inline-link-rx"></block></block>
+  <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
+  <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>.</block>
+  <block id="35c557b0567ac792133a510e83112409" category="paragraph"><block ref="35c557b0567ac792133a510e83112409" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Si tratta di un ID generato dal sistema che viene mappato all'e-mail. Nella pagina *NSS Management*, è possibile visualizzare l'e-mail da <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Se è necessario aggiornare i token delle credenziali di accesso, è disponibile anche l'opzione *Update Credentials* (Aggiorna credenziali) in <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

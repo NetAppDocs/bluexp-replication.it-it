@@ -26,7 +26,7 @@ Scopri le novità del servizio di replica di BlueXP (in precedenza Cloud Manager
 
 Ora puoi replicare i dati da un file system Amazon FSX per ONTAP a Cloud Volumes ONTAP.
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["Scopri come configurare la replica dei dati"].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Scopri come configurare la replica dei dati"].
 
 
 
@@ -42,7 +42,7 @@ Ora puoi replicare i dati da un file system Amazon FSX per ONTAP nelle seguenti 
 * Cluster ONTAP on-premise
 
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["Scopri come configurare la replica dei dati"].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Scopri come configurare la replica dei dati"].
 
 
 
@@ -54,7 +54,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 Ora puoi replicare i dati da un sistema Cloud Volumes ONTAP o un cluster ONTAP on-premise su un file system Amazon FSX per ONTAP.
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["Scopri come configurare la replica dei dati"].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Scopri come configurare la replica dei dati"].
 
 
 
@@ -66,4 +66,4 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 Abbiamo riprogettato la scheda Replication per una maggiore facilità di utilizzo e per adattarsi all'aspetto attuale dell'interfaccia utente di Cloud Manager.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-replication/main/media/replication.gif["Una schermata della scheda Replica riprogettata in Cloud Manager che mostra un elenco di relazioni di volume."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif["Una schermata della scheda Replica riprogettata in Cloud Manager che mostra un elenco di relazioni di volume."]
