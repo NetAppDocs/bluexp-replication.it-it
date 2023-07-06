@@ -361,4 +361,12 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Aggiornamento del software Cloud Volumes ONTAP alla versione più recente</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">L'associazione delle credenziali NSS all'account BlueXP è diversa dall'account NSS associato a un account utente BlueXP.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Queste credenziali NSS sono associate all'ID account BlueXP specifico. Gli utenti che appartengono all'account BlueXP possono accedere a queste credenziali da *Support &gt; NSS Management*.</block>
+  <block id="31fd9b4d5ab71f1bab6cf8522f760d0a" category="section-title">Replicare i dati utilizzando il backup e ripristino BlueXP</block>
+  <block id="ede1cce9f240fed5ecc4264bd699cee1" category="inline-link">Backup e ripristino BlueXP</block>
+  <block id="66979f555a68186ee239dfc6698f984d" category="paragraph">A partire dalla versione 3.9.31 di BlueXP Connector, il backup e ripristino BlueXP consente di replicare i dati tra volumi su sistemi ONTAP separati utilizzando le tecnologie SnapMirror e SnapVault. Pertanto, se si prevede di replicare i dati in altri sistemi ONTAP e si desidera creare backup degli stessi dati nello storage a oggetti, è possibile utilizzare<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> in modo da poter gestire le tue esigenze di protezione dei dati con un singolo servizio.</block>
+  <block id="fdebf565d05cf95ccf5d24605af82d89" category="paragraph">Attualmente, le seguenti funzionalità sono supportate solo nel servizio di replica BlueXP, non quando si utilizza la funzionalità di replica di backup e ripristino BlueXP.</block>
+  <block id="e012112c73378e2a2d1fd1a0fa9c2795" category="list-text">Non è disponibile alcun supporto per una configurazione a cascata in cui la replica avviene dal volume A al volume B, quindi dal volume B al volume C.</block>
+  <block id="baf48e0aa2c3928a76f5ae4cfa863af0" category="list-text">Non è disponibile alcun supporto per la replica dei dati da o verso FSX per sistemi ONTAP.</block>
+  <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">Non è disponibile alcun supporto per la creazione di una replica singola di un volume.</block>
+  <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">Pertanto, se si necessita di una di queste funzionalità, utilizzare la replica BlueXP.</block>
 </blocks>
