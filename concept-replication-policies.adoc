@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-replication-policies.html 
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, disaster recovery, DR 
-summary: È possibile replicare i dati tra ambienti di lavoro BlueXP. Puoi scegliere una replica dei dati una tantum per spostare i dati da e verso il cloud, oppure un programma ricorrente per il disaster recovery o la conservazione a lungo termine. 
+summary: Quando si imposta la replica dei dati in BlueXP, potrebbe essere necessario scegliere un criterio di replica. Un criterio di replica definisce il modo in cui il sistema storage replica i dati da un volume di origine a un volume di destinazione. 
 ---
 = Scopri le policy di replica
 :hardbreaks:

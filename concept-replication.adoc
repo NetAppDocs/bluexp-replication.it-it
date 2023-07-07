@@ -4,7 +4,7 @@ permalink: concept-replication.html
 keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, disaster recovery, DR, archive, archiving, retention 
 summary: 'NetApp SnapMirror replica i dati a velocità elevate su LAN o WAN, in modo da ottenere un"elevata disponibilità dei dati e una replica rapida dei dati in ambienti virtuali e tradizionali. Quando si replicano i dati nei sistemi storage NetApp e si aggiornano continuamente i dati secondari, i dati vengono mantenuti aggiornati e rimangono disponibili ogni volta che ne hai bisogno. Non sono richiesti server di replica esterni.' 
 ---
-= Scopri di più sul servizio di replica
+= Scopri di più sulla replica BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -29,7 +29,7 @@ NetApp SnapMirror replica i dati a velocità elevate su LAN o WAN, in modo da ot
 
 == Costo
 
-NetApp non addebita alcun costo per l'utilizzo del servizio di replica, ma è necessario controllare il provider cloud per verificare i costi di ingresso e uscita dei dati applicabili.
+NetApp non addebita alcun costo per l'utilizzo della replica BlueXP, ma è necessario controllare il provider cloud per verificare i costi di ingresso e uscita dei dati applicabili.
 
 
 
