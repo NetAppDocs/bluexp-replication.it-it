@@ -106,7 +106,7 @@ Se la destinazione è un cluster ONTAP, è necessario specificare anche la VM di
 +
 È necessario limitare la velocità di trasferimento. Un tasso illimitato potrebbe influire negativamente sulle performance di altre applicazioni e sulle performance di Internet.
 
-. *Replication Policy*: Scegliere un criterio predefinito o fare clic su *Additional Policies*, quindi selezionare uno dei criteri avanzati.
+. *Replication Policy*: Scegliere un criterio predefinito o selezionare *Additional Policies*, quindi selezionare uno dei criteri avanzati.
 +
 Per assistenza, link:concept-replication-policies.html["scopri le policy di replica"].
 
@@ -117,7 +117,7 @@ Se si sceglie un criterio di backup personalizzato (SnapVault), le etichette ass
 +
 Sono disponibili diverse pianificazioni predefinite. Se si desidera una pianificazione diversa, è necessario creare una nuova pianificazione nel cluster _destination_ utilizzando System Manager.
 
-. *Revisione*: Rivedere le selezioni e fare clic su *Vai*.
+. *Revisione*: Rivedere le selezioni e selezionare *Vai*.
 
 
 .Risultato

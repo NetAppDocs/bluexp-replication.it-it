@@ -23,7 +23,7 @@ Dopo aver configurato la replica dei dati tra due sistemi, è possibile gestire 
 
 NOTE: Se lo stato di una relazione è inattivo e lo stato di mirroring non è inizializzato, è necessario inizializzare la relazione dal sistema di destinazione per eseguire la replica dei dati in base alla pianificazione definita. È possibile inizializzare la relazione utilizzando System Manager o l'interfaccia della riga di comando (CLI). Questi stati possono essere visualizzati quando il sistema di destinazione non funziona e poi torna in linea.
 
-. Fare clic sul menu delle azioni per una relazione di volume e scegliere una delle azioni disponibili.
+. Selezionare il menu delle azioni per una relazione di volume e scegliere una delle azioni disponibili.
 +
 image:screenshot_replication_managing.gif["Schermata: Mostra l'elenco delle azioni disponibili nella pagina Replication Status (Stato replica)."]
 
