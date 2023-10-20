@@ -4,7 +4,7 @@ permalink: concept-backup-policies.html
 keywords: snapvault, archive, archiving, retention 
 summary: A differenza dei criteri Mirror, i criteri di Backup SnapVault replicano copie Snapshot specifiche in un volume di destinazione. È importante comprendere il funzionamento dei criteri di backup se si desidera utilizzare i propri criteri invece dei criteri predefiniti. 
 ---
-= Scopri le policy di replica
+= Scopri le politiche di backup
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

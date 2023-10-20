@@ -83,7 +83,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp dovrebbe contattarti durante questo processo. Si tratta di un esercizio di assunzione per i nuovi utenti.</block>
   <block id="745cc81e54713a1702ada65f4b222bce" category="summary">È possibile replicare i dati tra ambienti di lavoro ONTAP scegliendo una replica dei dati una tantum per il trasferimento dei dati o una pianificazione ricorrente per il disaster recovery o la conservazione a lungo termine. Ad esempio, è possibile configurare la replica dei dati da un sistema ONTAP on-premise a Cloud Volumes ONTAP per il disaster recovery.</block>
   <block id="aa03d16eacb954c7af08d5001cd67507" category="doc">Configurare la replica dei dati</block>
-  <block id="992753e7f234853a9e0f96d1ff637271" category="section-title">Requisiti di replica dei dati</block>
   <block id="3f5c98f2da3fd65fbbfa955b13a433ab" category="paragraph">Prima di poter replicare i dati, devi confermare che sono soddisfatti requisiti specifici per Cloud Volumes ONTAP, cluster ONTAP on-premise o Amazon FSX per ONTAP.</block>
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">Ambienti di lavoro</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">Se non l'hai già fatto, devi creare gli ambienti di lavoro per l'origine e la destinazione nella relazione di replica dei dati.</block>
@@ -110,7 +109,6 @@
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Requisiti specifici di Amazon FSX per ONTAP</block>
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">Se Cloud Volumes ONTAP fa parte della relazione, garantire la connettività tra i VPC attivando il peering VPC o utilizzando un gateway di transito.</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">Se un cluster ONTAP on-premise fa parte della relazione, verificare la connettività tra la rete on-premise e il VPC AWS utilizzando una connessione diretta o VPN.</block>
-  <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">Replica dei dati tra sistemi</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">Puoi replicare i dati scegliendo una replica dei dati una tantum, che può aiutarti a spostare i dati da e verso il cloud, o una pianificazione ricorrente, che può aiutarti con il disaster recovery o la conservazione a lungo termine.</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">Dal menu di navigazione, selezionare *Storage &gt; Canvas*.</block>
   <block id="5aa1fbc4561178f17ae944c56ea9c22e" category="list-text">In Canvas, selezionare l'ambiente di lavoro che contiene il volume di origine, trascinarlo nell'ambiente di lavoro in cui si desidera replicare il volume, quindi selezionare *Replication*.</block>
@@ -155,7 +153,6 @@
   <block id="efec681cbb459f433d2291a71e215461" category="list-text">In una configurazione fanout, la replica avviene dal volume A a più destinazioni.</block>
   <block id="7a850141034065e0218996db71a2ef0c" category="list-text">In una configurazione a cascata, la replica avviene dal volume A al volume B e dal volume B al volume C.</block>
   <block id="30f8f8912c844cee545e88597d12bbab" category="summary">Dopo aver configurato la replica dei dati tra due sistemi, è possibile gestire la pianificazione e la relazione della replica dei dati da BlueXP.</block>
-  <block id="2e4ca84ff13f65389599985c5d2a9f08" category="doc">Gestire pianificazioni e relazioni</block>
   <block id="3b5a034beecbb1a2d60171dfe195f2df" category="list-text">Dal menu di navigazione, selezionare *protezione &gt; Replica*.</block>
   <block id="775f5846d28de12857c9c89ae5d4a6e1" category="list-text">Esaminare lo stato delle relazioni di replica dei dati per verificare che siano integre.</block>
   <block id="384cf3526eba01b7701f7fde08ba751e" category="admonition">Se lo stato di una relazione è inattivo e lo stato di mirroring non è inizializzato, è necessario inizializzare la relazione dal sistema di destinazione per eseguire la replica dei dati in base alla pianificazione definita. È possibile inizializzare la relazione utilizzando System Manager o l'interfaccia della riga di comando (CLI). Questi stati possono essere visualizzati quando il sistema di destinazione non funziona e poi torna in linea.</block>
@@ -271,9 +268,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Inizia subito</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">Gestire la replica dei dati</block>
-  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">Concetti</block>
-  <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">Policy di replica</block>
-  <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">Policy di backup</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conoscenza e supporto</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blog e community</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Community NetApp</block>
@@ -373,4 +367,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Ottieni supporto per un file service del cloud provider</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Per supporto tecnico relativo a un file service di un cloud provider, alla sua infrastruttura o a una soluzione che utilizza il servizio, fare riferimento a "Guida in linea" nella documentazione BlueXP relativa a quel prodotto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Per ricevere supporto tecnico specifico di BlueXP e delle relative soluzioni e servizi storage, utilizza le opzioni di supporto descritte di seguito.</block>
+  <block id="46ebfd1e0393caa0f34b574489afb56f" category="section-title">Passaggio 1: Esaminare i requisiti di replica dei dati</block>
+  <block id="94d63941f5733e2475f76dcc24cbaab4" category="section-title">Fase 2: Replica dei dati tra sistemi</block>
+  <block id="30926cdd94e56dd228449e15c0e4474c" category="doc">Scopri le politiche di backup</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novità</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="sidebar">Scopri di più</block>
 </blocks>

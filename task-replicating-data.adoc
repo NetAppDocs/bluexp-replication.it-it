@@ -18,7 +18,7 @@ summary: È possibile replicare i dati tra ambienti di lavoro ONTAP scegliendo u
 
 
 
-== Requisiti di replica dei dati
+== Passaggio 1: Esaminare i requisiti di replica dei dati
 
 Prima di poter replicare i dati, devi confermare che sono soddisfatti requisiti specifici per Cloud Volumes ONTAP, cluster ONTAP on-premise o Amazon FSX per ONTAP.
 
@@ -76,7 +76,7 @@ Requisiti specifici di Amazon FSX per ONTAP::
 
 
 
-== Replica dei dati tra sistemi
+== Fase 2: Replica dei dati tra sistemi
 
 Puoi replicare i dati scegliendo una replica dei dati una tantum, che può aiutarti a spostare i dati da e verso il cloud, o una pianificazione ricorrente, che può aiutarti con il disaster recovery o la conservazione a lungo termine.
 
