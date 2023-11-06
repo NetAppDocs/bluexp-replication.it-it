@@ -26,9 +26,7 @@ Ambienti di lavoro:: Se non l'hai già fatto, devi creare gli ambienti di lavoro
 +
 --
 * https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html["Creare un ambiente di lavoro Amazon FSX per ONTAP"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["Avviare Cloud Volumes ONTAP in AWS"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["Avviare Cloud Volumes ONTAP in Azure"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Avviare Cloud Volumes ONTAP in Google Cloud"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-overview-cvo.html["Creare un ambiente di lavoro Cloud Volumes ONTAP"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["Aggiungere sistemi Cloud Volumes ONTAP esistenti"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Scopri i cluster ONTAP"^]
 
@@ -56,7 +54,7 @@ Requisiti specifici dei cluster ONTAP::
 +
 --
 * È necessario installare una licenza SnapMirror attiva.
-* Se il cluster si trova in sede, è necessario disporre di una connessione dalla rete aziendale alla rete virtuale in AWS, Azure o Google Cloud. Si tratta in genere di una connessione VPN.
+* Se il cluster si trova in sede, è necessario disporre di una connessione dalla rete aziendale alla rete virtuale nel cloud. Si tratta in genere di una connessione VPN.
 * I cluster ONTAP devono soddisfare ulteriori requisiti di subnet, porta, firewall e cluster.
 +
 https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["Visualizzare i prerequisiti per il peering dei cluster nella documentazione di ONTAP"^]
