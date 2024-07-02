@@ -101,7 +101,6 @@
   <block id="8c4a805dde66a7461e7760fe982d066f" category="list-text">È necessario installare una licenza SnapMirror attiva.</block>
   <block id="1fbce003d68708feb24931b9e6366f50" category="list-text">I cluster ONTAP devono soddisfare ulteriori requisiti di subnet, porta, firewall e cluster.</block>
   <block id="d7bb556723e915c43fe4fd9b0f90d545" category="inline-link">Visualizzare i prerequisiti per il peering dei cluster nella documentazione di ONTAP</block>
-  <block id="54aa7fca826fcb0f6caefb80a82fe037" category="paragraph"><block ref="54aa7fca826fcb0f6caefb80a82fe037" category="inline-link-rx"></block></block>
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Requisiti specifici di Amazon FSX per ONTAP</block>
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">Se Cloud Volumes ONTAP fa parte della relazione, garantire la connettività tra i VPC attivando il peering VPC o utilizzando un gateway di transito.</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">Se un cluster ONTAP on-premise fa parte della relazione, verificare la connettività tra la rete on-premise e il VPC AWS utilizzando una connessione diretta o VPN.</block>
@@ -366,4 +365,5 @@
   <block id="dbfdbb36eb5065fce9a76d7ae82068ab" category="list-text"><block ref="dbfdbb36eb5065fce9a76d7ae82068ab" category="inline-link-rx"></block></block>
   <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">Se il cluster si trova in sede, è necessario disporre di una connessione dalla rete aziendale alla rete virtuale nel cloud. Si tratta in genere di una connessione VPN.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utilizza Microsoft Entra ID come provider di identità per i servizi di autenticazione specifici per il supporto e la licenza.</block>
+  <block id="97d76d6ad65338f9dc1e8196be488382" category="paragraph"><block ref="97d76d6ad65338f9dc1e8196be488382" category="inline-link-rx"></block></block>
 </blocks>

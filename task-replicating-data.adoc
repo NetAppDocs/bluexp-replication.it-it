@@ -57,7 +57,7 @@ Requisiti specifici dei cluster ONTAP::
 * Se il cluster si trova in sede, è necessario disporre di una connessione dalla rete aziendale alla rete virtuale nel cloud. Si tratta in genere di una connessione VPN.
 * I cluster ONTAP devono soddisfare ulteriori requisiti di subnet, porta, firewall e cluster.
 +
-https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["Visualizzare i prerequisiti per il peering dei cluster nella documentazione di ONTAP"^]
+https://docs.netapp.com/us-en/ontap/peering/prerequisites-cluster-peering-reference.html#connectivity-requirements["Visualizzare i prerequisiti per il peering dei cluster nella documentazione di ONTAP"^]
 
 
 
