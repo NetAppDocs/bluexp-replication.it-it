@@ -1,0 +1,11 @@
+= Supporto per Amazon FSX per ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Supporto per Amazon FSX per ONTAP
+
+Ora puoi replicare i dati da un sistema Cloud Volumes ONTAP o un cluster ONTAP on-premise su un file system Amazon FSX per ONTAP.
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Scopri come configurare la replica dei dati"].
