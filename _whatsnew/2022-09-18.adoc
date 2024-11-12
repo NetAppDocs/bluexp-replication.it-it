@@ -1,5 +1,7 @@
 = FSX per ONTAP to Cloud Volumes ONTAP
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
