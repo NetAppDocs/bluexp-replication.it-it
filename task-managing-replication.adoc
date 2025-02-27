@@ -64,7 +64,7 @@ Informazioni su come eseguire una risincronizzazione inversa, che risincronizza 
 | Aggiornare | Avvia un trasferimento incrementale per aggiornare il volume di destinazione. 
 
 
-| Eliminare | Elimina la relazione di protezione dei dati tra i volumi di origine e di destinazione, il che significa che la replica dei dati non avviene più tra i volumi. Questa azione non attiva il volume di destinazione per l'accesso ai dati. Questa azione elimina anche la relazione peer del cluster e la relazione peer di Storage VM (SVM), se non sono presenti altre relazioni di protezione dei dati tra i sistemi. 
+| Eliminare | Elimina la relazione di protezione dei dati tra i volumi di origine e di destinazione, il che significa che la replica dei dati non avviene più tra i volumi. Questa azione non attiva il volume di destinazione per l'accesso ai dati. 
 |===
 
 
